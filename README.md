@@ -4,6 +4,17 @@ Official website for CETAA, connecting 50,000+ alumni across 15+ chapters worldw
 
 ![CETAA Homepage](docs/screenshot-hero.png)
 
+## Features
+
+- 🏛 **Heritage Section** — 85+ years of CET history since 1939
+- 🎓 **Distinguished Alumni** — Tabbed directory of notable alumni (Electrical, Civil, Mechanical)
+- 📊 **NIRF Rankings** — Animated counters showcasing achievements
+- 🏗 **Renovation Campaign** — Before/after image sliders for CETAA Hall renovation
+- 💰 **Scholarship Info** — GEMS, CARE, and HOPE Plus programs
+- 👥 **Executive Committee** — Full committee grid (2024–26)
+- 📅 **CET Chronicle** — Interactive timeline from 1939 to 2039
+- 📱 **Fully Responsive** — Works on mobile, tablet, and desktop
+
 ## Tech Stack
 
 React 19 · Vite · Tailwind CSS · Framer Motion · React Router
