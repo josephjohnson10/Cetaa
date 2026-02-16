@@ -59,12 +59,6 @@ Open **http://localhost:5173** in your browser.
 npm run build
 ```
 
-## Deployment
-
-Push to GitHub and deploy on [Netlify](https://netlify.com) or [Vercel](https://vercel.com).
-
-- **Build command:** `npm run build`
-- **Publish directory:** `dist`
 
 ## License
 
