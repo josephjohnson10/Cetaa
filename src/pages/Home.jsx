@@ -213,7 +213,7 @@ export default function Home() {
     return (
         <div className="bg-white">
             {/* ── 1. HERO ── */}
-            <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-navy via-[#002244] to-[#001133]">
+            <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-navy via-[#002244] to-[#001133] pt-32">
                 {/* pattern overlay */}
                 <div className="absolute inset-0 opacity-[0.04]"
                     style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)', backgroundSize: '40px 40px' }} />
