@@ -107,9 +107,9 @@ const Renovation = () => {
                     initial={{ opacity: 0, y: 60 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, type: 'spring', stiffness: 80 }}
-                    className="glass-card p-8 md:p-12 -mt-20 mb-24 relative overflow-hidden"
+                    className="glass-card p-8 md:p-12 -mt-20 mb-24 relative"
                 >
-                    <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-gold via-primary to-navy"></div>
+                    <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-gold via-primary to-navy rounded-t-2xl"></div>
                     <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
                         <div className="flex-1 w-full">
                             <h2 className="text-3xl font-black text-navy mb-2">Goal: ₹50 Lakhs</h2>
