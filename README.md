@@ -32,6 +32,10 @@ Official website for CETAA, connecting 50,000+ alumni across 15+ chapters worldw
 | <img src="website screenshots/screen5.png" width="100%" /> | <img src="website screenshots/screen6.png" width="100%" /> |
 | **Supporting Students** | **Through the Years** |
 
+### Renovation Gallery
+
+<img src="website screenshots/screen7.png" width="100%" />
+
 ## Tech Stack
 
 React 19 · Vite · Tailwind CSS · Framer Motion · React Router
