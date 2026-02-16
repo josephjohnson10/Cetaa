@@ -15,18 +15,23 @@ Official website for CETAA, connecting 50,000+ alumni across 15+ chapters worldw
 - 📅 **CET Chronicle** — Interactive timeline from 1939 to 2039
 - 📱 **Fully Responsive** — Works on mobile, tablet, and desktop
 
-
 ### Visual Navigation
 
-| **Campus** | **Renovation Project** |
+| **Home** | **Renovation** |
 |:---:|:---:|
-| <img src="public/images/cet/cet-main-building.jpeg" width="100%" /> | <img src="public/images/renovation/hall_proposed.png" width="100%" /> |
-| **85 Years of Heritage** | **Modernizing CETAA Hall** |
+| <img src="website screenshots/screen1.png" width="100%" /> | <img src="website screenshots/screen%202.png" width="100%" /> |
+| **Welcome to CETAA** | **Rebuilding Our Legacy** |
 
-| **Academics** | **Student Life** |
+| **Alumni & History** | **Community** |
 |:---:|:---:|
-| <img src="public/images/cet/cet-library.jpeg" width="100%" /> | <img src="public/images/cet/cet-campus-stairs.jpeg" width="100%" /> |
-| **World-Class Library** | **Vibrant Campus Culture** |
+| <img src="website screenshots/SCREEN3.png" width="100%" /> | <img src="website screenshots/screen4.png" width="100%" /> |
+| **Distinguished Alumni** | **Executive Committee** |
+
+| **Scholarships** | **Timeline** |
+|:---:|:---:|
+| <img src="website screenshots/screen5.png" width="100%" /> | <img src="website screenshots/screen6.png" width="100%" /> |
+| **Supporting Students** | **Through the Years** |
+
 ## Tech Stack
 
 React 19 · Vite · Tailwind CSS · Framer Motion · React Router
