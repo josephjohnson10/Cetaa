@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  /* Glassmorphism utilities */
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl shadow-lg;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .glass-dark {
+    @apply bg-black/40 backdrop-blur-xl shadow-2xl;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md shadow-xl rounded-2xl;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .glass-navy {
+    @apply backdrop-blur-xl;
+    background: rgba(0, 51, 102, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Gradient text helpers — outside @layer to use raw CSS for custom colors */
+.text-gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #D4A843, #facc15);
+}
+
+.text-gradient-red {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #C8102E, #fb923c);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-gray-800 antialiased;
+  }
+
+  ::selection {
+    background: rgba(200, 16, 46, 0.2);
+    color: #C8102E;
+  }
+}
