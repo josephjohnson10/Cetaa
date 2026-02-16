@@ -9,6 +9,8 @@ import {
     Quote, ExternalLink, Clock
 } from 'lucide-react';
 
+import ImageTransition from '../components/ImageTransition';
+
 /* ───── animation helpers ───── */
 const fadeInUp = {
     hidden: { opacity: 0, y: 30 },
@@ -385,6 +387,9 @@ export default function Home() {
                     ))}
                 </div>
             </Section>
+
+            {/* ── IMAGE TRANSITION ── */}
+            <ImageTransition />
 
             {/* ── 5. DISTINGUISHED ALUMNI (Tabbed) ── */}
             <Section bg="bg-gradient-to-br from-navy via-[#002244] to-[#001133]">
