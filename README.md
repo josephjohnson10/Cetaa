@@ -2,6 +2,8 @@
 
 Official website for CETAA, connecting 50,000+ alumni across 15+ chapters worldwide.
 
+**Live Demo:** [https://cetaa-eight.vercel.app/](https://cetaa-eight.vercel.app/)
+
 ![CETAA Homepage](docs/screenshot-hero.png)
 
 ## Features
