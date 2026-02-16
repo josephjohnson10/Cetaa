@@ -2,6 +2,8 @@
 
 Official website for CETAA, connecting 50,000+ alumni across 15+ chapters worldwide.
 
+![CETAA Homepage](docs/screenshot-hero.png)
+
 ## Tech Stack
 
 React 19 · Vite · Tailwind CSS · Framer Motion · React Router
