@@ -311,6 +311,34 @@ export default function Home() {
                 </div>
             </Section>
 
+            {/* ── CAMPUS GALLERY ── */}
+            <Section bg="bg-white">
+                <motion.div variants={fadeInUp} className="text-center mb-16">
+                    <span className="text-primary font-bold text-sm tracking-widest uppercase">Our Campus</span>
+                    <h2 className="text-4xl md:text-5xl font-black text-navy mt-3">A Walk Through CET</h2>
+                    <p className="text-gray-500 mt-4 max-w-2xl mx-auto">
+                        Explore the stunning 125-acre campus of India's first government engineering college.
+                    </p>
+                </motion.div>
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    {[
+                        { src: '/images/cet/cet-main-building.jpeg', label: 'Main Building' },
+                        { src: '/images/cet/cet-main-gate.jpeg', label: 'College Gate' },
+                        { src: '/images/cet/cet-library.jpeg', label: 'Technical Library' },
+                        { src: '/images/cet/cet-entrance.jpeg', label: 'Campus Entrance' },
+                        { src: '/images/cet/cet-campus-stairs.jpeg', label: 'Campus Stairs' },
+                        { src: '/images/cet/cet-college-building.jpeg', label: 'College Building' },
+                    ].map((img, i) => (
+                        <motion.div key={i} variants={fadeInUp}
+                            className="group relative rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
+                            <img src={img.src} alt={img.label} className="w-full h-56 md:h-64 object-cover group-hover:scale-105 transition-transform duration-500" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                            <span className="absolute bottom-3 left-4 text-white font-bold text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">{img.label}</span>
+                        </motion.div>
+                    ))}
+                </div>
+            </Section>
+
             {/* ── 3. VISION & MISSION ── */}
             <Section bg="bg-gradient-to-br from-navy via-[#002244] to-[#001a33]">
                 <motion.div variants={fadeInUp} className="text-center mb-16">
