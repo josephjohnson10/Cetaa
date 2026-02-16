@@ -15,6 +15,20 @@ Official website for CETAA, connecting 50,000+ alumni across 15+ chapters worldw
 - 📅 **CET Chronicle** — Interactive timeline from 1939 to 2039
 - 📱 **Fully Responsive** — Works on mobile, tablet, and desktop
 
+## Screenshots
+
+### Campus
+| | |
+|---|---|
+| ![Main Building](public/images/cet/cet-main-building.jpeg) | ![Main Gate](public/images/cet/cet-main-gate.jpeg) |
+| ![Library](public/images/cet/cet-library.jpeg) | ![Campus Stairs](public/images/cet/cet-campus-stairs.jpeg) |
+
+### Renovation — Before & After
+| Before | After |
+|---|---|
+| ![Hall Current](public/images/renovation/hall_current.png) | ![Hall Proposed](public/images/renovation/hall_proposed.png) |
+| ![Reception Current](public/images/renovation/reception_current.png) | ![Reception Proposed](public/images/renovation/reception_proposed.png) |
+
 ## Tech Stack
 
 React 19 · Vite · Tailwind CSS · Framer Motion · React Router
