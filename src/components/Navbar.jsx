@@ -23,17 +23,18 @@ const Navbar = () => {
 
     return (
         <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
-                ? 'bg-white/70 backdrop-blur-xl shadow-lg border-b border-white/20'
-                : 'bg-transparent'
+            ? 'bg-white/70 backdrop-blur-xl shadow-lg border-b border-white/20'
+            : 'bg-transparent'
             }`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16 items-center">
                     {/* Logo */}
                     <Link to="/" className="flex items-center group">
-                        <div className={`p-1.5 rounded-lg transition-all duration-300 ${scrolled ? 'bg-navy' : 'bg-white/10 backdrop-blur-sm'
-                            }`}>
-                            <GraduationCap className={`h-6 w-6 ${scrolled ? 'text-gold' : 'text-white'}`} />
-                        </div>
+                        <img
+                            src="/images/logo.jpeg"
+                            alt="CETAA Logo"
+                            className="h-10 w-10 rounded-lg object-contain bg-white/90"
+                        />
                         <span className={`ml-2.5 text-xl font-extrabold tracking-tight transition-colors duration-300 ${scrolled ? 'text-navy' : 'text-white'
                             }`}>
                             CETAA
@@ -47,8 +48,8 @@ const Navbar = () => {
                                 key={link.name}
                                 to={link.path}
                                 className={`relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 ${isActive(link.path)
-                                        ? scrolled ? 'text-navy bg-navy/5' : 'text-white bg-white/10'
-                                        : scrolled ? 'text-gray-600 hover:text-navy hover:bg-gray-100/50' : 'text-white/70 hover:text-white hover:bg-white/10'
+                                    ? scrolled ? 'text-navy bg-navy/5' : 'text-white bg-white/10'
+                                    : scrolled ? 'text-gray-600 hover:text-navy hover:bg-gray-100/50' : 'text-white/70 hover:text-white hover:bg-white/10'
                                     }`}
                             >
                                 {link.name}
@@ -95,8 +96,8 @@ const Navbar = () => {
                                     to={link.path}
                                     onClick={() => setIsOpen(false)}
                                     className={`block px-4 py-3 rounded-xl text-base font-medium transition-all ${isActive(link.path)
-                                            ? 'text-navy bg-navy/5 border-l-4 border-gold'
-                                            : 'text-gray-600 hover:text-navy hover:bg-gray-50'
+                                        ? 'text-navy bg-navy/5 border-l-4 border-gold'
+                                        : 'text-gray-600 hover:text-navy hover:bg-gray-50'
                                         }`}
                                 >
                                     {link.name}
