@@ -9,7 +9,7 @@ React 19 · Vite · Tailwind CSS · Framer Motion · React Router
 ## Getting Started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Cetaa.git
+git clone https://github.com/josephjohnson10/Cetaa.git
 cd Cetaa
 npm install
 npm run dev
