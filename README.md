@@ -16,7 +16,17 @@ Official website for CETAA, connecting 50,000+ alumni across 15+ chapters worldw
 - 📱 **Fully Responsive** — Works on mobile, tablet, and desktop
 
 
+### Visual Navigation
 
+| **Campus** | **Renovation Project** |
+|:---:|:---:|
+| <img src="public/images/cet/cet-main-building.jpeg" width="100%" /> | <img src="public/images/renovation/hall_proposed.png" width="100%" /> |
+| **85 Years of Heritage** | **Modernizing CETAA Hall** |
+
+| **Academics** | **Student Life** |
+|:---:|:---:|
+| <img src="public/images/cet/cet-library.jpeg" width="100%" /> | <img src="public/images/cet/cet-campus-stairs.jpeg" width="100%" /> |
+| **World-Class Library** | **Vibrant Campus Culture** |
 ## Tech Stack
 
 React 19 · Vite · Tailwind CSS · Framer Motion · React Router
